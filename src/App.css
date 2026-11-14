@@ -1,0 +1,108 @@
+/* Стили компонентов в стиле теплой домашней библиотеки */
+
+.library-stats {
+    background: #f4ebd0;
+    border: 1px solid #e2cea2;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(74, 59, 50, 0.06);
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.stat-item {
+    font-size: 1.1rem;
+    color: #4a3b32;
+}
+
+.stat-value {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #8c5821;
+    margin-top: 5px;
+}
+
+.book-card {
+    background: #ffffff;
+    border: 1px solid #eadacc;
+    border-radius: 10px;
+    padding: 22px;
+    margin-bottom: 18px;
+    box-shadow: 0 3px 10px rgba(59, 47, 47, 0.04);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.book-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(74, 59, 50, 0.1);
+    border-color: #c59b27;
+}
+
+.book-title {
+    font-size: 1.3rem;
+    color: #3b2f2f;
+    margin: 0 0 10px 0;
+}
+
+.book-info {
+    margin: 5px 0;
+    color: #6a5a52;
+    font-size: 0.95rem;
+}
+
+.badge-available {
+    display: inline-block;
+    background-color: #e6f2eb;
+    color: #2c6b43;
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-top: 12px;
+    border: 1px solid #b5d6c0;
+}
+
+.badge-unavailable {
+    display: inline-block;
+    background-color: #fae8e6;
+    color: #9c3b32;
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-top: 12px;
+    border: 1px solid #f0bcb8;
+}
+
+.classic-badge {
+    display: inline-block;
+    background-color: #fcf1d4;
+    color: #8c6218;
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 12px;
+    border: 1px solid #e6d19c;
+}
+
+.empty-message {
+    font-style: italic;
+    color: #8c786d;
+    text-align: center;
+    padding: 20px;
+    background: #f7f1e5;
+    border-radius: 8px;
+}
+
+.book-list-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
