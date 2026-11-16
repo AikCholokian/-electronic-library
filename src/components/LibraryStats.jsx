@@ -3,8 +3,14 @@ export function LibraryStats({books}) {
     const availableCount = availableBooks.length;
     return (
         <div className="library-stats">
-            <p className="stat-item">{books.length}</p>
-            <p className="stat-item">{availableCount}</p>
+            <div className="stat-item">
+                Всего книг
+                <span className="stat-value">{books.length}</span>
+            </div>
+            <div className="stat-item">
+                Доступно
+                <span className="stat-value">{availableCount}</span>
+            </div>
         </div>
     )
 }
